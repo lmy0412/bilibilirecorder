@@ -40,11 +40,7 @@ def getdownloadurl(cid):
     return file_url
 
 if __name__ == '__main__':
-    cid = 49728
-    cid = 52285  #test
-
-
-
+    cid = 5440  #test
     while(True):
         livestatue = 0
         try:
