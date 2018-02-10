@@ -52,8 +52,9 @@ def getdownloadurl(cid):
 if __name__ == '__main__':
     sys.stdout = Logger('log.txt')
     start = 0
-    roomid = 281
-    cid = 49728
+    # input the roomid and cid
+    roomid = 16
+    cid = 20006
     while(True):
         livestatue = 0
         try:
